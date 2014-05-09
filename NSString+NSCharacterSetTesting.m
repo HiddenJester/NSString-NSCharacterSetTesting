@@ -9,7 +9,6 @@
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
 #import "NSString+NSCharacterSetTesting.h"
-
 @implementation NSString (NSString_CharacterSetTesting)
 
 - (BOOL) isContainedInCharacterSet:(NSCharacterSet*)aCharacterSet {
@@ -17,9 +16,6 @@
 	{
 		unichar testChar = [self characterAtIndex:index];
 		if (![aCharacterSet characterIsMember:testChar]) {
-#if DEBUG
-			NSLog(@"Rejecting %c", testChar);
-#endif
 			return NO;
 		}
 	}
