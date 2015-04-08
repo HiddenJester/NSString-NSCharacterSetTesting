@@ -8,7 +8,7 @@
 // International License. To view a copy of this license, visit
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 /*
  A simple category to determine if all of the characters in a NSString are

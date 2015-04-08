@@ -9,6 +9,7 @@
 // http://creativecommons.org/licenses/by-sa/4.0/deed.en_US.
 
 #import "NSString+NSCharacterSetTesting.h"
+
 @implementation NSString (NSString_CharacterSetTesting)
 
 - (BOOL) isContainedInCharacterSet:(NSCharacterSet*)aCharacterSet {
