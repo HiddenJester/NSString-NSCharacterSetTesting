@@ -6,6 +6,8 @@
 //  Copyright © 2016 Timothy Sanders. All rights reserved.
 //
 
+@import Foundation;
+
 //! Project version number for NSString+NSCharacterSetTesting.
 FOUNDATION_EXPORT double NSString_NSCharacterSetTestingVersionNumber;
 
