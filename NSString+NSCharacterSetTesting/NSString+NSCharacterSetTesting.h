@@ -1,6 +1,5 @@
 //
 //  NSString+NSCharacterSetTesting.h
-//  RoadTrip
 //
 //  Created by Timothy Sanders on 2/17/14.
 //  Copyright (c) 2014 HiddenJester Software.

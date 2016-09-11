@@ -14,6 +14,7 @@
 
 /* Begin PBXFileReference section */
 		3B6A56911D1ED20700A2DE87 /* NSString+NSCharacterSetTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSCharacterSetTesting.m"; sourceTree = "<group>"; };
+		3B8CCAB31D84EAD0006870D7 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		3BD4FD5E1D1ED16100DC6031 /* NSStringNSCharacterSetTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSStringNSCharacterSetTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD4FD611D1ED16100DC6031 /* NSString+NSCharacterSetTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NSCharacterSetTesting.h"; sourceTree = "<group>"; };
 		3BD4FD631D1ED16100DC6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 				3B6A56911D1ED20700A2DE87 /* NSString+NSCharacterSetTesting.m */,
 				3BD4FD631D1ED16100DC6031 /* Info.plist */,
 				3BD4FD691D1ED41E00DC6031 /* NSStringNSCharacterSetTesting.h */,
+				3B8CCAB31D84EAD0006870D7 /* module.map */,
 			);
 			path = "NSString+NSCharacterSetTesting";
 			sourceTree = "<group>";
@@ -99,7 +101,7 @@
 		3BD4FD551D1ED16100DC6031 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Timothy Sanders";
 				TargetAttributes = {
 					3BD4FD5D1D1ED16100DC6031 = {
@@ -160,8 +162,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -208,8 +212,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -240,6 +246,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -247,6 +254,7 @@
 				INFOPLIST_FILE = "NSString+NSCharacterSetTesting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "NSString+NSCharacterSetTesting/module.map";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hiddenjester.NSString-NSCharacterSetTesting";
 				PRODUCT_NAME = NSStringNSCharacterSetTesting;
 				SKIP_INSTALL = YES;
@@ -257,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -264,6 +273,7 @@
 				INFOPLIST_FILE = "NSString+NSCharacterSetTesting/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "NSString+NSCharacterSetTesting/module.map";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hiddenjester.NSString-NSCharacterSetTesting";
 				PRODUCT_NAME = NSStringNSCharacterSetTesting;
 				SKIP_INSTALL = YES;

@@ -14,5 +14,4 @@ FOUNDATION_EXPORT double NSString_NSCharacterSetTestingVersionNumber;
 //! Project version string for NSString+NSCharacterSetTesting.
 FOUNDATION_EXPORT const unsigned char NSString_NSCharacterSetTestingVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <WatchColorsiOS/PublicHeader.h>
 #import <NSStringNSCharacterSetTesting/NSString+NSCharacterSetTesting.h>
