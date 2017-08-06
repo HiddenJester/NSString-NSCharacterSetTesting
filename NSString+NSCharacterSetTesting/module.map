@@ -1,3 +1,0 @@
-framework module NSStringNSCharacterSetTesting {
-    umbrella header "NSStringNSCharacterSetTesting.h"
-}
