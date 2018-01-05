@@ -1,6 +1,7 @@
 NSString-NSCharacterSetTesting
 ==============================
 
+[![CocoaPods Compatible](https://img.shields.io/badge/Cocoapod-Compatible-brightgreen.svg?style=flat)](https://cocoapods.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 A category on NSString to test whether all characters in the string are members of a NSCharacterSet. For example, if you want
